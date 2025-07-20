@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list-alok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>todo-list-alok</h1>
+            <p>Organize your day, one task at a time</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="totalTasks">0</span>
+                <span class="stat-label">Total</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="completedTasks">0</span>
+                <span class="stat-label">Completed</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="pendingTasks">0</span>
+                <span class="stat-label">Pending</span>
+            </div>
+        </div>
+
+        <div class="todo-list" id="todoList">
+            <div class="empty-state" id="emptyState">
+                <div class="empty-state-icon">📝</div>
+                <h3>No tasks yet</h3>
+                <p>Add your first task below to get started on your productive journey!</p>
+            </div>
+        </div>
+
+        <button class="clear-completed" id="clearCompleted" style="display: none;">
+            Clear Completed Tasks
+        </button>
+    </div>
+
+    <div class="input-container">
+        <div class="input-wrapper">
+            <input type="text" class="todo-input" id="todoInput" placeholder="What needs to be done?" maxlength="200">
+            <button class="add-btn" id="addBtn">+</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
