@@ -16,7 +16,7 @@ This is my **first coding project**, built as a part of my learning journey into
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live app](https://yourusername.github.io/todo-list-alok)
+👉 [Click here to view the live app](https://thealokverse.github.io/todo-list-alok/)
 
 ## 📁 Technologies Used
 
